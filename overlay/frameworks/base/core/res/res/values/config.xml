@@ -189,5 +189,8 @@
     <integer name="config_multiuserMaximumUsers">4</integer>
     <!--  Whether Multiuser UI should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
-
+    
+    <!-- Translucent status & navigation bars perform poorly on this device -->
+    <bool name="config_enableTranslucentDecor">true</bool>
+    
 </resources>
